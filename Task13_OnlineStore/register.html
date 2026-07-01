@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QuickCart - Register</title>
+</head>
+<body id="top">
+    <header>
+        <img src="images/logo.jpg" alt="QuickCart logo" width="90">
+        <h1>QuickCart</h1>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="product-details.html">Product Details</a>
+            <a href="about.html">About</a>
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Customer Registration</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Account Information</legend>
+                    <p><label for="full-name">Full Name:</label><input type="text" id="full-name" name="full_name" required></p>
+                    <p><label for="username">Username:</label><input type="text" id="username" name="username" required></p>
+                    <p><label for="password">Password:</label><input type="password" id="password" name="password" required></p>
+                    <p><label for="confirm-password">Confirm Password:</label><input type="password" id="confirm-password" name="confirm_password" required></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <p><label for="email">Email Address:</label><input type="email" id="email" name="email" required></p>
+                    <p><label for="phone">Phone Number:</label><input type="tel" id="phone" name="phone"></p>
+                    <p><label for="dob">Date of Birth:</label><input type="date" id="dob" name="date_of_birth"></p>
+                    <p>Gender:
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                        <label><input type="radio" name="gender" value="male"> Male</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Shipping Details</legend>
+                    <p>
+                        <label for="country">Country:</label>
+                        <select id="country" name="country">
+                            <option value="oman">Oman</option>
+                            <option value="uae">United Arab Emirates</option>
+                            <option value="qatar">Qatar</option>
+                        </select>
+                    </p>
+                    <p><label for="shipping">Shipping Address:</label><textarea id="shipping" name="shipping_address" rows="4" cols="35"></textarea></p>
+                    <p><label><input type="checkbox" name="terms" required> I accept the terms and conditions.</label></p>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 QuickCart Online Store. Email: <a href="mailto:support@quickcart.com">support@quickcart.com</a> | Social: <a href="https://www.facebook.com">Facebook</a> | <a href="https://www.instagram.com">Instagram</a></p>
+        <p><a href="index.html">Home</a> | <a href="contact.html">Contact</a></p>
+        <p><a href="#top">Back to Top</a></p>
+    </footer>
+</body>
+</html>
